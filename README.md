@@ -1,2 +1,2 @@
 # beginnersGuideToGit
-ENGL335 Capstone Project
+ENGL335 Capstone Project.
