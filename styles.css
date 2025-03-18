@@ -1,0 +1,48 @@
+body
+{
+    background-color: rgb(63, 63, 63);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+button
+{
+    background-color: rgb(120, 21, 74);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    height:30px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img
+{
+    width:25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px) scale(1.05); /* Slight scale for a "bubbly" effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3, summary, p, a
+{
+    color:white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); } /* Moves up */
+    100% { transform: translateY(0); } /* Back to original position */
+}
+
+img {
+    animation: float 3s ease-in-out infinite; /* Smooth floating effect */
+}
